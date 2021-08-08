@@ -4,7 +4,7 @@ Still in development. Use at your own risk. Read this file carefully before usin
 
 ## Usage
 
-* The script is intended for PC Glitchless runners. Make sure you installed the correct version of the game.
+* The script is intended for PC **Glitchless** runners. Make sure you installed the correct version of the game.
 * Download the repo as a zip file. 
 * Select `Superliminal - subsplits.lss` as your splits file. 
 * Then, in "Edit Splits" - "Auto start/split/reset and load removal available", choose "Activate", and in "Settings", change the script path to the downloaded `superliminal_split_on_cp.asl` file.
@@ -14,6 +14,8 @@ Still in development. Use at your own risk. Read this file carefully before usin
 ## Compatibility
 
 Only tested on LiveSplit 1.8.16 with Superliminal Steam version 1.10.2021.5.10.  The script might not work on earlier versions.
+
+It should also work in challenge mode; I've only tested the first few rooms though. If you run challange mode, you need to manually remove the last split for Retrospect.
 
 ## Skipping CPs
 
