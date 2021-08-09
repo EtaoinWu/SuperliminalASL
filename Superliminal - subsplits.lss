@@ -820,6 +820,18 @@
       </SegmentHistory>
     </Segment>
     <Segment>
+      <Name>-_Astral_City</Name>
+      <Icon />
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
       <Name>-WaterCooler_Monument</Name>
       <Icon />
       <SplitTimes>
@@ -844,19 +856,7 @@
       </SegmentHistory>
     </Segment>
     <Segment>
-      <Name>-_P_NegativeSpaceDoorway</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best">
-        </SplitTime>
-      </SplitTimes>
-      <BestSegmentTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-      </SegmentHistory>
-    </Segment>
-    <Segment>
-      <Name>{Whitespace} Cheese skip</Name>
+      <Name>{Whitespace} _P_NegativeSpaceDoorway</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best">
