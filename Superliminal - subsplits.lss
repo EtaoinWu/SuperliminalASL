@@ -881,13 +881,5 @@
     </Segment>
   </Segments>
   <AutoSplitterSettings>
-    <Version>1.5</Version>
-    <ScriptPath>superliminal_split_on_cp.asl</ScriptPath>
-    <Start>True</Start>
-    <Reset>True</Reset>
-    <Split>True</Split>
-    <CustomSettings>
-      <Setting id="il" type="bool">False</Setting>
-    </CustomSettings>
   </AutoSplitterSettings>
 </Run>
