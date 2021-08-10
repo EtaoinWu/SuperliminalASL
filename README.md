@@ -5,10 +5,7 @@ Still in development. Use at your own risk. Read this file carefully before usin
 ## Usage
 
 * The script is intended for PC **Glitchless** runners. Make sure you installed the correct version of the game.
-* Download the repo as a zip file. 
-* Select `Superliminal - subsplits.lss` as your splits file. 
-* Then, in "Edit Splits" - "Auto start/split/reset and load removal available", choose "Activate", and in "Settings", change the script path to the downloaded `superliminal_split_on_cp.asl` file.
-* Enable Start, Split and Reset; keep Individual Level off for now.
+* Select `Superliminal - subsplits.lss` as your splits file. In the settings for auto-splitter, enable "Split on checkpoints".
 * Fire up your game and have fun.
 
 ## Compatibility
