@@ -4,15 +4,15 @@ Still in development. Use at your own risk. Read this file carefully before usin
 
 ## Usage
 
-* The script is intended for PC **Glitchless** runners. Make sure you installed the correct version of the game.
-* Select `Superliminal - subsplits.lss` as your splits file. In the settings for auto-splitter, enable "Split on checkpoints".
+* The script is intended for PC **Glitchless** runners. Make sure you installed the correct version (2021) of the game.
+* Download and select `Superliminal - subsplits.lss` as your splits file. In the settings for auto-splitter, enable "Split on checkpoints".
 * Fire up your game and have fun.
 
 ## Compatibility
 
 Only tested on LiveSplit 1.8.16 with Superliminal Steam version 1.10.2021.5.10.  The script might not work on earlier versions.
 
-It should also work in challenge mode; I've only tested the first few rooms though. If you run challange mode, you need to manually remove the last split for Retrospect.
+It should also work in challenge mode; I've only tested the first few rooms though. If you run challenge mode, you need to manually remove the last split for Retrospect.
 
 ## Skipping CPs
 
