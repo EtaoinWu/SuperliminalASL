@@ -712,19 +712,7 @@
       </SegmentHistory>
     </Segment>
     <Segment>
-      <Name>-_ClickAlarmClockPaintingTransition</Name>
-      <Icon />
-      <SplitTimes>
-        <SplitTime name="Personal Best">
-        </SplitTime>
-      </SplitTimes>
-      <BestSegmentTime>
-      </BestSegmentTime>
-      <SegmentHistory>
-      </SegmentHistory>
-    </Segment>
-    <Segment>
-      <Name>{Labyrinth} _ParkingLot</Name>
+      <Name>{Labyrinth} _ClickAlarmClockPaintingTransition</Name>
       <Icon />
       <SplitTimes>
         <SplitTime name="Personal Best">
