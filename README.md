@@ -1,4 +1,4 @@
-# Superliminal Checkpoint Autosplitter
+# Superliminal Checkpoint Auto-splitter and Subsplits File
 
 Still in development. Use at your own risk. Read this file carefully before using.
 
@@ -18,13 +18,19 @@ It should also work in challenge mode; I've only tested the first few rooms thou
 
 If you skip a checkpoint trigger, the script would not work properly.
 
-* If you perform the blind walking strategy in the room where you need to jump above boxes in Blackout (rather than getting the red light from another room), you need to delete the subsplit `_ExitSignLightWithBoxes`.
+* In *Induction*, the checkpoint `TC_TwoButtonRoom_EM` can be skipped if you jump down the door instead of walk down; the trigger is roughly here:
+  
+  ![Position of the checkpoint `TC_TwoButtonRoom_EM`](position_TC_TwoButtonRoom_EM.png)
 
-* In Labyrinth, after the elevator maze, there is another elevator which will teleport you to a parking lot with street lamps and moon. The checkpoint `_ParkingLot` is placed on the far end of that elevator, roughly here on the screenshot:
+  If you have the habit to jump down the door, you can delete this checkpoint from the splits file.
+
+* If you perform the blind walking strategy in the room where you need to jump above boxes in *Blackout* (rather than getting the red light from another room), you'll need to delete the subsplit `_ExitSignLightWithBoxes` from the splits file.
+
+* In *Labyrinth*, after the elevator maze, there is another elevator which will teleport you to a parking lot with street lamps and moon. The checkpoint `_ParkingLot` is placed on the far end of that elevator, roughly here on the screenshot:
 
   ![Position of the checkpoint `_ParkingLot`](position_ParkingLot.png)
 
-  The scene transition trigger is different from the checkpoint trigger; that is, you got the scene transition as long as you enter the elevator, while you got the checkpoint only if you hit the far end of the elevator. Depending on your habit, you may or may not skip this checkpoint. You might need to manually split (or undo split) if you accidentally miss (or hit, respectively) this trigger.
+  The scene transition trigger is different from the checkpoint trigger; that is, you got the scene transition as long as you enter the elevator, while you got the checkpoint only if you hit the far end of the elevator. Due to its inconsistency, this checkpoint has been removed from the split file, and **splitting on this CP is disabled** in the auto-splitter by default.
 
 No other CP skips are found in my glitchless testing runs.
 
