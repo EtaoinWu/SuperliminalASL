@@ -6,6 +6,7 @@ Still in development. Use at your own risk. Read this file carefully before usin
 
 * The script is intended for PC **Glitchless** runners. Make sure you installed the correct version (2021) of the game.
 * Download and select `Superliminal - subsplits.lss` as your splits file. In the settings for auto-splitter, enable "Split on checkpoints".
+* For load removal in version 2020 and above, you need to set your comparison to **Game Time** instead of Real Time, which LiveSplit would read the in-game timer from memory.
 * Fire up your game and have fun.
 
 ## Compatibility
