@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Run version="1.7.0">
+  <GameIcon/>
+  <GameName>Superliminal</GameName>
+  <CategoryName>Glitchless</CategoryName>
+  <Metadata>
+    <Run id=""/>
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables/>
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory>
+  </AttemptHistory>
+  <Segments><Segment>
+      <Name>-Start</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_PutDoorOnButton</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_HallwayWithCloneDoors_EM</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_AlarmClockCloning</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_Apple_Hallway</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_CloneCubism_Museum_P_EM</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_Back_Break_Room</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>{Clone} _End_Museum_Hallway</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    </Segments><AutoSplitterSettings>
+  </AutoSplitterSettings>
+</Run>

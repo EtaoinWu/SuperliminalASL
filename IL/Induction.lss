@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Run version="1.7.0">
+  <GameIcon/>
+  <GameName>Superliminal</GameName>
+  <CategoryName>Glitchless</CategoryName>
+  <Metadata>
+    <Run id=""/>
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables/>
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory>
+  </AttemptHistory>
+  <Segments><Segment>
+      <Name>-Start</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-TC_GrabALotOfStuff</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-TC_HallwayShort</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-TC_HallwayPawnIllusion_EM</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-TC_RampPuzzle</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-TC_AlarmClockCloneHallway</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-TC_CubeThroughHoleWithGrates</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-TC_OvertheWallRoom</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-TC_PortalHallway</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-TC_TwoButtonRoom_EM</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-TC_HallwayShort 4</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>{Induction} TC_BackAreaFallHall</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    </Segments><AutoSplitterSettings>
+  </AutoSplitterSettings>
+</Run>

@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Run version="1.7.0">
+  <GameIcon/>
+  <GameName>Superliminal</GameName>
+  <CategoryName>Glitchless</CategoryName>
+  <Metadata>
+    <Run id=""/>
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables/>
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory>
+  </AttemptHistory>
+  <Segments><Segment>
+      <Name>-Start</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_Cube_Splits_In_Half_Museum_C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_Floor_Cube_Museum_D</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_Vending_Machine_Back_Area_EM</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_Scroll_Hollow_Museum_G</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_Pallet_Stack_Back_Area_C</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>{Cubism} _Giant_Cube_Museum_J_EM</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    </Segments><AutoSplitterSettings>
+  </AutoSplitterSettings>
+</Run>

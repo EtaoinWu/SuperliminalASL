@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Run version="1.7.0">
+  <GameIcon/>
+  <GameName>Superliminal</GameName>
+  <CategoryName>Glitchless</CategoryName>
+  <Metadata>
+    <Run id=""/>
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables/>
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory>
+  </AttemptHistory>
+  <Segments><Segment>
+      <Name>-Start</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_GrabDoorsForFirstTime_EM</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_ExitSignRamp</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_Hotel_IllusionCube</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_IllusionCubeNoBackside</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_JustAHallway</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_BackAreaStage</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_Studio_BackLot02_EM</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>{Optical} _P_MoonRoom</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    </Segments><AutoSplitterSettings>
+  </AutoSplitterSettings>
+</Run>

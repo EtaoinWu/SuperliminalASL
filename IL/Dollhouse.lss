@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Run version="1.7.0">
+  <GameIcon/>
+  <GameName>Superliminal</GameName>
+  <CategoryName>Glitchless</CategoryName>
+  <Metadata>
+    <Run id=""/>
+    <Platform usesEmulator="False">
+    </Platform>
+    <Region>
+    </Region>
+    <Variables/>
+  </Metadata>
+  <Offset>00:00:00</Offset>
+  <AttemptCount>0</AttemptCount>
+  <AttemptHistory>
+  </AttemptHistory>
+  <Segments><Segment>
+      <Name>-Start</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_PortalHouse01_ConferenceRoom_E</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_TVBackArea</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_FanAndTower</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_WindowPortal</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>-_Portal_Pool_Stairstep</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    <Segment>
+      <Name>{Dollhouse} _NormalizeHallway 3</Name>
+      <Icon/>
+      <SplitTimes>
+        <SplitTime name="Personal Best">
+        </SplitTime>
+      </SplitTimes>
+      <BestSegmentTime>
+      </BestSegmentTime>
+      <SegmentHistory>
+      </SegmentHistory>
+    </Segment>
+    </Segments><AutoSplitterSettings>
+  </AutoSplitterSettings>
+</Run>

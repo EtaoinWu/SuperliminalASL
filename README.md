@@ -8,6 +8,7 @@ Still in development. Use at your own risk. Read this file carefully before usin
 * Download and select `Superliminal - subsplits.lss` as your splits file. In the settings for auto-splitter, enable "Split on checkpoints".
 * For load removal in version 2020 and above, you need to set your comparison to **Game Time** instead of Real Time, which LiveSplit would read the in-game timer from memory.
 * Fire up your game and have fun.
+* If you need IL split files with checkpoint subsplits, you can use `IL/[level name].lss`.
 
 ## Compatibility
 
