@@ -1,3 +1,5 @@
+
+
 # Superliminal Checkpoint Auto-splitter and Subsplits File
 
 Still in development. Use at your own risk. Read this file carefully before using.
@@ -32,7 +34,11 @@ If you skip a checkpoint trigger, the script would not work properly.
 
   ![Position of the checkpoint `_ParkingLot`](position_ParkingLot.png)
 
-  The scene transition trigger is different from the checkpoint trigger; that is, you got the scene transition as long as you enter the elevator, while you got the checkpoint only if you hit the far end of the elevator. Due to its inconsistency, this checkpoint has been removed from the split file, and **splitting on this CP is disabled** in the auto-splitter by default.
+  The scene transition trigger is different from the checkpoint trigger; that is, you got the scene transition as long as you enter the elevator, while you got the checkpoint only if you hit the far end of the elevator (also, after the elevator disappeared, you can still hit the checkpoint at the middle of the parking lot area). Due to its inconsistency, this checkpoint has been removed from the split file, and **splitting on this CP is disabled** in the auto-splitter by default.
+
+* In *Whitespace*, after you drop down from the black place with rain, there is a checkpoint here called `_WalkThroughShadow`:![position_WalkThroughShadow](position_WalkThroughShadow.png)
+
+  Due to its inconsistency, this checkpoint has been removed from the split file, and **splitting on this CP is disabled** in the auto-splitter by default.
 
 No other CP skips are found in my glitchless testing runs.
 
