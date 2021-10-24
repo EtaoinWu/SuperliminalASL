@@ -13,12 +13,13 @@ startup
 init
 {
   print("Using scene filename and in-game speedrun timer");
-  version = "2021";
+  version = "2021x";
 }
 
 start
 {
-  return current.timer > 0 && old.timer != current.timer;
+  const string Menu = "Assets/_Levels/_LiveFolder/Misc/StartScreen_Live.unity";
+  return !current.scene.StartsWith(Menu);
 }
 
 update
@@ -33,6 +34,9 @@ isLoading
 
 split
 {
-  return current.achv_count >= 20 && old.achv_count != current.achv_count;
+  if (old.achv_count != current.achv_count) {
+    return current.achv_count >= 21 || current.achv_count == 1;
+  }
+  return false;
   // return current.achv_count > old.achv_count;
 }
