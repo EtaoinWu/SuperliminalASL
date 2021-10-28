@@ -1,8 +1,10 @@
 
 
-# Superliminal Checkpoint Auto-splitter and Subsplits File
+# Superliminal Checkpoint Auto-splitter and Splits File
 
 Still in development. Use at your own risk. Read this file carefully before using.
+
+This repo also contains resources for [All Achievement](AllAchievements) and [Challenge Mode](ChallengeMode) resources.
 
 ## Usage
 
