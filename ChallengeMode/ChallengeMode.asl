@@ -11,6 +11,9 @@ startup
 {
   vars.challenge_count = 0;
   vars.challenge_count_1 = 0;
+
+  settings.Add("split_on_challenge", false, "Split on finishing a mini challenge");
+  settings.SetToolTip("split_on_challenge", "");
 }
 
 init
@@ -84,5 +87,7 @@ split
   const string Menu = "Assets/_Levels/_LiveFolder/Misc/StartScreen_Live.unity";
   finishedGame = current.scene != old.scene && current.scene == Menu && vars.challenge_count == 32;
 
-  return enteredNextLevel || finishedGame || collectedMiniChallenge;
+  return enteredNextLevel 
+    || finishedGame 
+    || (settings["split_on_challenge"] && collectedMiniChallenge);
 }
