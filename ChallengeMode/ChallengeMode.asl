@@ -1,8 +1,20 @@
-// duplicate state matching the Steam process chapter
 state("SuperliminalSteam", "2021")
 {
   double timer : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x128;
-  uint achv_count : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x80, 0x10, 0x30;
+  string255 scene : "UnityPlayer.dll", 0x180b4f8, 0x48, 0x10, 0x0;
+  int mini_challenge_chapter_count : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x90, 0x10, 0x40;
+}
+
+state("Superliminal", "2021")
+{
+  double timer : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x128;
+  string255 scene : "UnityPlayer.dll", 0x180b4f8, 0x48, 0x10, 0x0;
+  int mini_challenge_chapter_count : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x90, 0x10, 0x40;
+}
+
+state("SuperliminalSteam", "2021mp")
+{
+  double timer : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x130;
   string255 scene : "UnityPlayer.dll", 0x180b4f8, 0x48, 0x10, 0x0;
   int mini_challenge_chapter_count : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x90, 0x10, 0x40;
 }
@@ -12,13 +24,20 @@ startup
   vars.challenge_count = 0;
   vars.challenge_count_1 = 0;
 
+  settings.Add("mp_update", true, "Multiplayer Update");
+  settings.SetToolTip("mp_update", "Check this if you received the multiplayer update");
+
   settings.Add("split_on_challenge", false, "Split on finishing a mini challenge");
   settings.SetToolTip("split_on_challenge", "");
 }
 
 init
 {
-  version = "2021";
+  if (game.ProcessName == "SuperliminalSteam" && settings["mp_update"])
+    version = "2021mp";
+  else
+    version = "2021";
+
   vars.inLevel = false;
 }
 
