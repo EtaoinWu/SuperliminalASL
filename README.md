@@ -4,7 +4,7 @@
 
 Still in development. Use at your own risk. Read this file carefully before using.
 
-This repo also contains resources for [All Achievement](AllAchievements) and [Challenge Mode](ChallengeMode) resources.
+This repo also contains resources for [All Achievement](AllAchievements) and [Challenge Mode](ChallengeMode) resources, now compatible with game version 2021.11.5.
 
 ## Usage
 
