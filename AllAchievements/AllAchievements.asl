@@ -62,7 +62,6 @@ split
 {
   if (old.achv_count != current.achv_count) {
     return 
-      current.achv_count == 1 || 
       (settings["achv21"] && current.achv_count == 21) ||
       (settings["achv22"] && current.achv_count == 22) ||
       (settings["achv23"] && current.achv_count == 23);
