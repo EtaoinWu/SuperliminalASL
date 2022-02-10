@@ -19,6 +19,21 @@ state("SuperliminalSteam", "2021mp")
   int mini_challenge_chapter_count : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x90, 0x10, 0x40;
 }
 
+// Let's just assume that these will work...
+state("Superliminal", "2021mp")
+{
+  double timer : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x130;
+  string255 scene : "UnityPlayer.dll", 0x180b4f8, 0x48, 0x10, 0x0;
+  int mini_challenge_chapter_count : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x90, 0x10, 0x40;
+}
+
+state("SuperliminalGOG", "2021mp")
+{
+  double timer : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x130;
+  string255 scene : "UnityPlayer.dll", 0x180b4f8, 0x48, 0x10, 0x0;
+  int mini_challenge_chapter_count : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x90, 0x10, 0x40;
+}
+
 startup
 {
   vars.challenge_count = 0;
@@ -33,7 +48,7 @@ startup
 
 init
 {
-  if (game.ProcessName == "SuperliminalSteam" && settings["mp_update"])
+  if (settings["mp_update"])
     version = "2021mp";
   else
     version = "2021";
