@@ -1,26 +1,40 @@
 
 
-# Superliminal Checkpoint Auto-splitter and Splits File
+# Superliminal Supplementary Auto-splitters and Splits File
 
 Still in development. Use at your own risk. Read this file carefully before using.
 
-This repo also contains resources for [All Achievement](AllAchievements) and [Challenge Mode](ChallengeMode) resources, now compatible with game version 2021.11.5.
+This repo contains resources for 
 
-## Usage
+- Checkpoint Autosplitter (see below),
+- [All Achievements](AllAchievements),
+- [Challenge Mode](ChallengeMode),
+- [Co-op](Coop) speedruns
 
-* The script is intended for PC **Glitchless** runners. Make sure you installed the correct version (2021) of the game.
+and other resources.
+## Development Status
+
+Work-in-progess: support for 2022.2.
+
+For older versions (in-game version 1.10.2021.x), please visit [v2021mp](https://github.com/EtaoinWu/SuperliminalASL/tree/v2021mp).
+
+## Checkpoint Autosplitter
+
+The checkpoint autosplitter is currently maintained on [Loris's repo](https://github.com/loriswit/asl).
+
+### Usage
+
+* The script is intended for PC **Glitchless** runners. Make sure you installed the correct version (2021 and beyond) of the game.
 * Download and select `Superliminal - subsplits.lss` as your splits file. In the settings for auto-splitter, enable "Split on checkpoints".
 * For load removal in version 2020 and above, you need to set your comparison to **Game Time** instead of Real Time, which LiveSplit would read the in-game timer from memory.
 * Fire up your game and have fun.
 * If you need IL split files with checkpoint subsplits, you can use `IL/[level name].lss`.
 
-## Compatibility
+### Compatibility
 
-Only tested on LiveSplit 1.8.16 with Superliminal Steam version 1.10.2021.5.10.  The script might not work on earlier versions.
+Limited testing was done. No guarantee on any platform other than PC Steam latest. (Contact me if you want support on your favorite platform.)
 
-It should also work in challenge mode; I've only tested the first few rooms though. If you run challenge mode, you need to manually remove the last split for Retrospect.
-
-## Skipping CPs
+### Skipping CPs
 
 If you skip a checkpoint trigger, the script would not work properly.
 
@@ -44,6 +58,6 @@ If you skip a checkpoint trigger, the script would not work properly.
 
 No other CP skips are found in my glitchless testing runs.
 
-## About Subsplits' Names
+### About Subsplits' Names
 
 I use in-game CP names as subsplit names. They are fetched from game memory. They are usually about the place where the checkpoint trigger is placed, rather than the actual level between the checkpoints. Rename them as you like!

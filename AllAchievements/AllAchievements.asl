@@ -1,29 +1,19 @@
-state("SuperliminalSteam", "2021")
+state("SuperliminalSteam", "2022")
 {
-  double timer : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x128;
-  uint achv_count : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x80, 0x10, 0x30;
-  string255 scene : "UnityPlayer.dll", 0x180b4f8, 0x48, 0x10, 0x0;
+  double timer : "UnityPlayer.dll", 0x17f9d28, 0x8, 0xb0, 0x28, 0x128;
+  uint achv_count : "UnityPlayer.dll", 0x17f9d28, 0x8, 0xb0, 0x28, 0x80, 0x10, 0x30;
+  string255 scene : "UnityPlayer.dll", 0x183cf10, 0x48, 0x10, 0x0;
 }
 
-state("Superliminal", "2021")
+state("Superliminal", "2022")
 {
-  double timer : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x128;
-  uint achv_count : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x80, 0x10, 0x30;
-  string255 scene : "UnityPlayer.dll", 0x180b4f8, 0x48, 0x10, 0x0;
-}
-
-state("SuperliminalSteam", "2021mp")
-{
-  double timer : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x130;
-  uint achv_count : "UnityPlayer.dll", 0x17c8588, 0x8, 0xb0, 0x28, 0x80, 0x10, 0x30;
-  string255 scene : "UnityPlayer.dll", 0x180b4f8, 0x48, 0x10, 0x0;
+  double timer : "UnityPlayer.dll", 0x17f9d28, 0x8, 0xb0, 0x28, 0x128;
+  uint achv_count : "UnityPlayer.dll", 0x17f9d28, 0x8, 0xb0, 0x28, 0x80, 0x10, 0x30;
+  string255 scene : "UnityPlayer.dll", 0x183cf10, 0x48, 0x10, 0x0;
 }
 
 startup
 {
-  settings.Add("mp_update", true, "Multiplayer Update");
-  settings.SetToolTip("mp_update", "Check this if you received the multiplayer update");
-  
   settings.Add("achv21", false, "Split on getting 21st achievement");
   settings.SetToolTip("achv21", "");
   settings.Add("achv22", false, "Split on getting 22nd achievement");
@@ -34,12 +24,7 @@ startup
 
 init
 {
-  print("Using scene filename and in-game speedrun timer");
-  
-  if (game.ProcessName == "SuperliminalSteam" && settings["mp_update"])
-    version = "2021mp";
-  else
-    version = "2021";
+  version = "2022";
 }
 
 start
