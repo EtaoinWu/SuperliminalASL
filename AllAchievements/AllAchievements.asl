@@ -12,6 +12,13 @@ state("Superliminal", "2022")
   string255 scene : "UnityPlayer.dll", 0x183cf10, 0x48, 0x10, 0x0;
 }
 
+state("SuperliminalGOG", "2022")
+{
+  double timer : "UnityPlayer.dll", 0x17f9d28, 0x8, 0xb0, 0x28, 0x128;
+  uint achv_count : "UnityPlayer.dll", 0x17f9d28, 0x8, 0xb0, 0x28, 0x80, 0x10, 0x30;
+  string255 scene : "UnityPlayer.dll", 0x183cf10, 0x48, 0x10, 0x0;
+}
+
 startup
 {
   settings.Add("achv21", false, "Split on getting 21st achievement");
