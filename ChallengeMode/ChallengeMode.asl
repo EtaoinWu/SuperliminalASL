@@ -27,6 +27,9 @@ startup
 
   settings.Add("split_on_challenge", false, "Split on finishing a mini challenge");
   settings.SetToolTip("split_on_challenge", "");
+
+  settings.Add("il", false, "Individual Level");
+  settings.SetToolTip("il", "For IL practices only");
 }
 
 init
@@ -34,10 +37,18 @@ init
   version = "2022";
 
   vars.inLevel = false;
+
 }
 
 start
 {
+  if (settings["il"])
+  {
+    const string LevelPrefix = "Assets/_Levels/_LiveFolder/ACT";
+    bool inLevel = current.scene != null && current.scene.StartsWith(LevelPrefix);
+    return inLevel && current.scene != old.scene;
+  }
+
   return current.timer > 0 && old.timer != current.timer;
 }
 
@@ -59,11 +70,17 @@ update
 
 gameTime
 {
+  if (settings["il"]) {
+    return null;
+  }
   return TimeSpan.FromSeconds(current.timer);
 }
 
 isLoading
 {
+  if (settings["il"]) {
+    return false;
+  }
   // const string LoadingScenesPrefix = "Assets/_Levels/_LiveFolder/Misc/LoadingScenes/";
   // return current.scene.StartsWith(LoadingScenesPrefix);
   return old.timer == current.timer;
