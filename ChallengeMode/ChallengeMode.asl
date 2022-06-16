@@ -54,6 +54,9 @@ start
 
 update
 {
+  if (current.scene == null) {
+    current.scene = old.scene;
+  }
   const string LevelPrefix = "Assets/_Levels/_LiveFolder/ACT";
   if (!vars.inLevel && current.scene != null && current.scene.StartsWith(LevelPrefix))
     vars.inLevel = true;
@@ -63,8 +66,12 @@ update
   vars.challenge_count = 0;
   vars.challenge_count_1 = 0;
   for (int i = 0; i < current.mini_challenge_chapter_count; i++) {
-    vars.challenge_count += new DeepPointer("UnityPlayer.dll", 0x17f9d28, 0x8, 0xb0, 0x28, 0x90, 0x10, 0x18, 0x30 + i * 0x18, 0x30).Deref<int>(game);
-    vars.challenge_count_1 += new DeepPointer("UnityPlayer.dll", 0x17f9d28, 0x8, 0xb0, 0x28, 0x90, 0x10, 0x18, 0x30 + i * 0x18, 0x34).Deref<int>(game);
+    vars.challenge_count_1 = new DeepPointer("UnityPlayer.dll", 0x17f9d28, 0x8, 0xb0, 0x28, 0x90, 0x10, 0x18, 0x30 + i * 0x18, 0x30).Deref<int>(game);
+    vars.challenge_count += vars.challenge_count_1;
+  }
+
+  if (current.scene != old.scene) {
+    print("Scene changed to " + current.scene);
   }
 }
 
@@ -94,7 +101,18 @@ reset
   enteredInduction = old.timer != current.timer && (current.timer < old.timer || old.timer == 0);
 
   const string Menu = "Assets/_Levels/_LiveFolder/Misc/StartScreen_Live.unity";
-  inMainMenu = current.scene != old.scene && current.scene == Menu && vars.challenge_count != 32;
+  if (current.scene != old.scene && current.scene == Menu) {
+    if (settings["il"]) {
+      const string Whitespace = "Assets/_Levels/_LiveFolder/ACT03/Unlit/Astral_Live.unity";
+      if (old.scene == Whitespace) {
+        inMainMenu = vars.challenge_count_1 != 3;
+      } else {
+        inMainMenu = true;
+      }
+    } else {
+      inMainMenu = vars.challenge_count != 32;
+    }
+  }
 
   return inMainMenu || enteredInduction;
 }
@@ -116,7 +134,7 @@ split
     collectedMiniChallenge = vars.challenge_count != vars.old_challenge_count;
 
   const string Menu = "Assets/_Levels/_LiveFolder/Misc/StartScreen_Live.unity";
-  finishedGame = current.scene != old.scene && current.scene == Menu && vars.challenge_count == 32;
+  finishedGame = current.scene != old.scene && current.scene == Menu;
 
   return enteredNextLevel 
     || finishedGame 
