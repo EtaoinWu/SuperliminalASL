@@ -69,10 +69,6 @@ update
     vars.challenge_count_1 = new DeepPointer("UnityPlayer.dll", 0x17f9d28, 0x8, 0xb0, 0x28, 0x90, 0x10, 0x18, 0x30 + i * 0x18, 0x30).Deref<int>(game);
     vars.challenge_count += vars.challenge_count_1;
   }
-
-  if (current.scene != old.scene) {
-    print("Scene changed to " + current.scene);
-  }
 }
 
 gameTime
